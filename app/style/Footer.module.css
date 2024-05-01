@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    background-color: #ebebeb;
+    padding:30px;
+
+
+}
+ 
+.footer_into {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 100 0 100;
+    box-sizing: border-box;
+
+}
+
+.requisites {
+    width: 30%; 
+    padding: 20 20 20 0;
+    box-sizing: border-box;
+}
+
+.articles {
+  width: 40%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+
+.contacts { 
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20 0 0 20;
+    box-sizing: border-box;
+}
+
+.contacts p {
+    margin-top:10;
+    margin-bottom:0;
+    font-size: 14px;
+}
+
+.info {
+    font-size: 12px;
+}
+
+.head {
+    font-weight: 700;
+}
+
+.articles .article_item {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.articles .article_item a {
+    text-decoration: none;
+    color:black;
+}

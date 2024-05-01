@@ -1,0 +1,28 @@
+.contacts {
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.contacts_info {
+    width: 50%;
+}
+
+.contacts_img {
+    width: 50%;
+}
+
+.contacts_img img {
+    width: 100%;
+}
+
+.contacts_phones, .contacts_email, .time p {
+    font-size: 20px;
+}

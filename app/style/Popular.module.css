@@ -1,0 +1,63 @@
+
+
+.popular {
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 50px 0;
+  }
+
+  .popular .popular_blocks {
+    padding: 0px 30px 0 30px;
+  }
+  
+  .popular_power {
+    display: flex;
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20 0 0 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+  } 
+  
+  .popular_power button {
+    padding: 10;
+    border-radius: 10px;
+    border: solid 1px rgb(110, 110, 110);
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  .popular_cond_list {
+    display: flex;
+    width: 100%;
+    padding: 50 0 0 0;
+    box-sizing: border-box;
+  }
+
+  .popular_all_catalog {
+    margin-top: 40px;
+    padding: 20 0 0 0;
+  }
+  
+  .popular_all_catalog button {
+    width: 250px;
+    height: 50px;
+    border: solid 1px rgb(182, 58, 9);
+    background-color: rgb(226, 81, 24);
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+  } 
+
+  .popular_all_catalog button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .popular_all_catalog button:hover {
+    cursor: pointer;
+    background-color: rgb(219, 23, 16);
+  } 

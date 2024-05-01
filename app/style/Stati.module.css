@@ -1,0 +1,63 @@
+.stati {
+    width: 100%;
+}
+
+.stati_into {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 100px 0;
+}
+
+.stati_blocks {
+    width: 100%; 
+}
+
+.stati .stati_into .stati_blocks .stati_item {
+    display: flex;
+    padding: 50px 50px 50px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgb(206, 204, 204);
+}
+
+.stati_item_foto {
+    width: 300px;
+}
+
+.stati_item_foto a img {
+    width: 300px;
+}
+
+
+
+.stati_item_txt {
+    width: 70%;
+    padding-left: 40px;
+}
+
+.stati_item_txt h2 {
+    margin-top: 0;
+    color: black;
+}
+
+
+.stati_item_txt a {
+    text-decoration: none;
+    color:rgb(155, 155, 155);  
+}
+
+.stati_item_txt a:hover {
+    text-decoration: underline;
+}
+
+
+.details {
+    color:rgb(155, 155, 155);
+    margin-top: 30px;
+}
+
+.details a {
+    border: 1px solid rgb(155, 155, 155);
+    padding: 10px;
+}
